@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "DarkModeVtex",
+  "description": "Dark Mode para o tema do admin da VTEX",
+  "author": "Eduardo Silva github => https://github.com/eduardonk9999",
+  "browser_action": {
+    "default_title": "DarkMode",
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "js": [ "app.js"],
+      "css": [
+        "style.css"
+      ],
+      "matches" : [
+        "https://darkside.myvtex.com/admin/a"
+      ]
+    }
+  ]
+}

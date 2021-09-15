@@ -15,7 +15,7 @@
         "style.css"
       ],
       "matches" : [
-        "https://darkside.myvtex.com/admin/a"
+        "https://*/*"
       ]
     }
   ]

@@ -1,43 +1,10 @@
-.w-100.calc--height.overflow-container {
-  background: #000;
-}
-.vtex-portal-body {
+/*CSS Edit File*/
+header#topbar-vtex {
   background: #000;
   color: #fff;
 }
 
-.ui-widget-content {
-  border: 1px solid #a6c9e2;
+.CodeMirror {
   background: #000;
-  color: #ffffff;
-}
-
-.ace-tm {
-  background-color: #191622;
-  color: white;
-}
-
-.ace-tm .ace_meta.ace_tag {
-  color: rgb(255 117 223);
-}
-
-span.ace_entity.ace_other.ace_attribute-name.ace_xml {
-  color: yellow;
-}
-
-span.ace_text.ace_xml {
-  color: yellow;
-}
-
-UL.jqueryFileTree A {
   color: #fff;
-}
-
-.t-heading-2 {
-  font-size: 2.25rem;
-  color: #fff;
-}
-
-iframe.w-100 UL.jqueryFileTree A {
-  color: #fff !important;
 }
